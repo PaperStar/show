@@ -1,6 +1,6 @@
 /*!
  * Name: WebSlides
- * Version: 0.0.1
+ * Version: 1.0.0
  * Date: 2018-04-04
  * Description: A show about paper-star.
  * URL: https://github.com/PaperStar/show#readme
@@ -3312,10 +3312,14 @@ nav li.dribbble a:hover {
   background-color: #ea4c89; }
 
 nav li.github a:hover {
-  background-color: #60b044; }
+  background-color: #21ba45; }
 
 nav li.email a:hover {
   background-color: #1683bb; }
+
+nav li.web a:hover {
+  background-color: #8e71c1; 
+}
 
 /*===================================================
 .flexblock li hover/active

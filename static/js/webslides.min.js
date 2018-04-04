@@ -1,6 +1,6 @@
 /*!
  * Name: WebSlides
- * Version: 0.0.1
+ * Version: 1.0.0
  * Date: 2018-04-04
  * Description: A show about paper-star.
  * URL: https://github.com/PaperStar/show#readme
