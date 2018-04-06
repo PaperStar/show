@@ -16,10 +16,10 @@
 
     <!-- CSS WebSlides -->
     <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/custom.css">
 
     <!-- Optional - CSS SVG Icons (Font Awesome) -->
     <link rel="stylesheet" type='text/css' media='all' href="static/css/fa-svg-with-js.css">
-    <script defer src="static/js/fontawesome-all.min.js"></script>
 
     <!-- SOCIAL CARDS (ADD YOUR INFO) -->
 
@@ -55,26 +55,31 @@
 
   </head>
   <body>
-      <i class="fa-user"></i>
-      <i class="fa-user"></i>
     <header role="banner">
       <nav role="navigation">
         <p class="logo"><a href="index.html" title="PaperStar">PaperStar</a></p>
         <ul>
           <li class="web">
-            <a rel="external" href="https://yunle.fun" title="Webisite">
+            <a rel="external" href="https://yunle.fun" title="Webisite" target="_blank">
               <i class="fas fa-globe"></i>
             </a>
           </li>
           <li class="github">
-            <a rel="external" href="https://github.com/PaperStar/show" title="Github">
+            <a rel="external" href="https://github.com/PaperStar/show" title="Github" target="_blank">
               <i class="fab fa-github"></i>
             </a>
           </li>
           <li class="email">
-            <a rel="external" href="mailto:me@yunyoujun.cn" title="E-mail">
+            <a rel="external" href="mailto:me@yunyoujun.cn" title="E-mail" target="_blank">
               <i class="far fa-envelope"></i>
             </a>
+          </li>
+          <li class="qrcode">
+            <a rel="external" href="#" title="QR-code">
+              <img src="static/images/qrcode/show.png" alt="show">
+              <i class="fas fa-qrcode"></i>
+            </a>
+            <h3 class="text">https://yunle.fun/show/</h3>
           </li>
           <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
         </ul>
@@ -90,19 +95,18 @@
         -->
 
         <section>
-         <span class="background" style="background-image:url('https://webslides.tv/static/images/nature.jpg')"></span>
+         <span class="background" style="background-image:url('static/images/bg/sky-cloud.jpg')"></span>
           <!--.wrap = container (width: 90%) -->
           <div class="wrap aligncenter">
-            <h1><strong>Paper Star</strong></h1>
-            <p class="text-intro">WebSlides makes HTML presentations easy.<br>
-              Just the essentials and using lovely CSS.
+            <h1><strong>中期答辩 | Paper Star</strong></h1>
+            <p class="text-intro">基于 Cocos 引擎的跨平台飞行射击游戏的设计与开发<br>
+                Everything can run in the <i class="fas fa-cloud"></i> .
             </p>
             <p>
-              <a href="https://webslides.tv/webslides-latest.zip" class="button zoomIn" title="Download WebSlides for free">
-                <svg class="fa-cloud-download">
-                  <use xlink:href="#fa-cloud-download"></use>
-                </svg>
-                WebSlides
+              <a href="https://github.com/YunYouJun" class="button zoomIn" title="My GitHub">
+                导师：栾翠菊
+                <br>
+                计算机141 杨睿
               </a>
             </p>
           </div>
@@ -110,18 +114,33 @@
         </section>
         <section>
           <!--.wrap = container (width: 90%) -->
-          <div class="wrap size-50 aligncenter">
-            <h2><strong>Why WebSlides?</strong></h2>
-            <p class="text-intro"><a href="demos/why-webslides.html" title="Why WebSlides?">Presentations</a>, <a href="demos/landings.html" title="Landings">landings</a>, <a href="demos/portfolios.html" title="Portfolios">portfolios</a>, and <a href="demos/longforms.html" title="Longforms">longforms</a>.</p>
+          <div class="wrap aligncenter">
+            <h2><strong>Why Cloud?</strong></h2>
+            <p class="text-intro">
+              Html5, Css3, JavaScript (ES6), and <a href="http://cocos.com/" title="cocos" target="_blank">Cocos</a> & 
+              <a href="https://developers.weixin.qq.com/miniprogram/introduction/" target="_blank" title="微信小程序">Mini Program</a> .
+            </p>
             <div class="bg-white shadow">
-              <ul class="flexblock reasons">
+              <ul class="flexblock features">
                 <li>
-                  <h2>An opportunity to engage.</h2>
-                  <p>WebSlides is about good karma. This is about telling the story, and sharing it in a beautiful way. HTML and CSS as narrative elements.</p>
+                  <h2>技术提供可能</h2>
+                  <p>
+                    - Html5 ( WebGL, Canvas, Device )
+                    <br>
+                    - Css3 ( Animation, Scss )
+                    <br>
+                    - JavaScript ( ES6/ES7, Promise, TypeScript, Library)
+                  </p>
                 </li>
                 <li>
-                  <h2>Work better, faster.</h2>
-                  <p>Designers, marketers, and journalists can now focus on the content. Simply <a href="demos/index.html" title="WebSlides Demos">choose a demo</a> and customize it in minutes.</p>
+                  <h2>市场潜力巨大</h2>
+                  <p>
+                    - Cocos Creator (Cocos 引擎进军 Web 端，面向轻应用市场)
+                    <br>
+                    - 微信小程序 (开放 <strong>小游戏</strong> 品类)
+                    <br>
+                    - <a href="http://www.xinhuanet.com/info/2017-11/29/c_136786870.htm" target="_blank">《2017年中国游戏产业报告》</a> 营收同比增长23.1%
+                  </p>
                 </li>
               </ul>
             </div>
@@ -132,27 +151,126 @@
         <section>
           <!--.wrap = container (width: 90%) -->
           <div class="wrap">
+            <!-- alignment [class*="content-"] = container max-width:50% = 600px -->
+            <div class="content-center">
+              <h2><strong>Why JavaScript?</strong></h2>
+              <hr>
+              <blockquote>
+                <p>"Any application that can be written in JavaScript, will eventually be written in JavaScript."</p>
+                <p><cite> <img class="avatar-40" src="static/images/character/Atwood.jfif" alt="Avatar"> <a href="https://en.wikipedia.org/wiki/Jeff_Atwood" title="Jeff Atwood - Wikipedia" target="_blank">Jeff Atwood</a> ( <a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a> 创始人 ) </cite></p>
+              </blockquote>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <!-- alignment [class*="content-"] = container max-width:50% = 600px -->
+            <div class="content-center">
+              <h2><strong>Why Mini Game?</strong></h2>
+              <hr>
+              <blockquote>
+                <p>"玩一个小游戏才是正经事。"</p>
+                <p><cite> <img class="avatar-40" src="static/images/character/zhangxiaolong.jpg" alt="Avatar"> <a href="https://baike.baidu.com/item/张小龙" title="张小龙 - 百度百科" target="_blank">张小龙</a> ( 微信创始人 ) </cite></p>
+              </blockquote>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <div class="wrap">
+            <h2>Plan</h2>
+            <p>
+              轻应用游戏 <i class="fas fa-gamepad"></i> 及相关生态 <i class="fas fa-th-list"></i>
+            </p>
+            <ul class="flexblock metrics border">
+              <li>
+                <a href="https://paper-star.yunyoujun.cn/" target="_blank">
+                  <i class="far fa-paper-plane"></i>
+                  <h4> Paper Star </h4>
+                  <p>
+                    游戏主程序
+                    <hr style="margin: 0px;">
+                    Canvas 绘制、Device 信息<br>
+                    展示 Web 端可能性
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a href="https://ink.yunyoujun.cn/" target="_blank">
+                  <i class="fas fa-tint"></i>
+                  <h4> Ink </h4>
+                  <p>
+                    前端样式组件
+                    <hr style="margin: 0px;">
+                    可复用组件<br>
+                    Element 主题样式
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a href="https://yunle.fun/" target="_blank">
+                  <i class="fab fa-chrome"></i>
+                  <h4> HomePage </h4>
+                  <p>
+                    官网
+                    <hr style="margin: 0px;">
+                    游戏内容展示
+                    <br>
+                    第三方登录、文章发布留言
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a href="https://yunle.fun/admin/" target="_blank">
+                  <i class="fas fa-user"></i>
+                  <h4> Admin </h4>
+                  <p>
+                    后台管理
+                    <hr style="margin: 0px;">
+                    用户信息、游戏数据<br>
+                    迭代更新
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-black aligncenter">
+          <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+          <span class="background dark" style="background-image:url('static/images/bg/keyboard.jpg')"></span>
+          <div class="wrap">
+            <h1 class="text-landing text-shadow"><strong>Progress</strong></h1>
+          </div>
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
             <div class="grid vertical-align">
               <div class="column">
-                <h3><strong>WebSlides is really easy</strong></h3>
-                <p class="text-intro">Each parent <code>&lt;section&gt;</code> in the #webslides element is an individual slide. </p>
-                <p>Code is clean and scalable. It uses <strong>intuitive markup</strong> with popular naming conventions. There's no need to overuse classes or nesting. <strong>Making an HTML presentation has never been so fast</strong>.</p>
+                <h3><strong>Paper Star</strong></h3>
+                <p class="text-intro"><i class="far fa-paper-plane"></i> Web 小游戏 </p>
+                <p>
+                  <i class="far fa-question-circle"></i> 不同设备自适应匹配
+                  <br>
+                  <i class="far fa-check-square"></i> 输入控制 （虚拟摇杆 & 重力感应）
+                  <br/>
+                  <i class="far fa-square"></i> 关卡设计
+                  <br>
+                  <i class="far fa-square"></i> NPC 对象逻辑
+                  <br>
+                  <i class="far fa-square"></i> 状态监管
+                  <br>
+                  <i class="far fa-square"></i> ……
+                  <br>
+                </p>
               </div>
               <!-- .end .column -->
               <div class="column">
-                <pre>&lt;article id="webslides"&gt;
-  <span class="code-comment">&lt;!-- Slide 1 --&gt;</span>
-  &lt;section&gt;
-    &lt;h1&gt;Design for trust&lt;/h1&gt;
-  &lt;/section&gt;
-  <span class="code-comment">&lt;!-- Slide 2 --&gt;</span>
-  &lt;section class="bg-primary"&gt;
-    &lt;div class="wrap"&gt;
-      &lt;h2&gt;.wrap = container (width: 90%)&lt;/h2&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
-&lt;/article&gt;
-</pre>
+                <img src="static/images/qrcode/game.png" alt="Game" width="300">
+                <h4><a href="https://paper-star.yunyoujun.cn/" target="_blank">https://paper-star.yunyoujun.cn</a></h4>
               </div>
               <!-- .end .column -->
             </div>
@@ -160,201 +278,83 @@
           </div>
           <!-- .end .wrap -->
         </section>
+        <iframe src="https://ink.yunyoujun.cn"></iframe>
+        
         <section>
           <div class="wrap">
-            <h2>Features</h2>
-            <ul class="flexblock features">
-              <li>
-                <div>
-                  <h2>
-                    <span>&rarr;</span>
-                    Simple Navigation
-                  </h2>
-                  with arrow keys, presenter...
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-link">
-                      <use xlink:href="#fa-link"></use>
-                    </svg>
-                    Permalinks
-                  </h2>
-                  Go to a specific slide.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-clock-o">
-                      <use xlink:href="#fa-clock-o"></use>
-                    </svg>
-                    Slide Counter
-                  </h2>
-                  Current/Total number.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <span>40<sup>+</sup></span>
-                    Beautiful Components
-                  </h2>
-                  Covers, cards, quotes...
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-text-height">
-                      <use xlink:href="#fa-text-height"></use>
-                    </svg>
-                    Vertical Rhythm
-                  </h2>
-                  Use multiples of 8.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <span>500<sup>+</sup></span>
-                    SVG Icons
-                  </h2>
-                  Font Awesome Kit.
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section>
-          <div class="wrap">
-            <h2><strong>WebSlides Demos</strong></h2>
-            <p>Contribute on <a href="https://github.com/webslides/webslides" title="Contribute on Github">Github</a>. <span class="alignright"><a href="demos/index.html" title="WebSlides Demos">View all &rsaquo;</a></span></p>
-            <ul class="flexblock gallery">
-              <li>
-                <a href="demos/why-webslides.html" title="Why WebSlides?">
-                  <figure>
-                    <img alt="Thumbnail Why WebSlides?" src="https://webslides.tv/static/images/demos-why.png">
-                    <figcaption>
-                      <h2>Why WebSlides?</h2>
-                    </figcaption>
-                  </figure>
-                </a>
-              </li>
-              <li>
-                <a href="demos/landings.html" title="Landings">
-                  <figure>
-                    <img alt="Thumbnail Landings" src="https://webslides.tv/static/images/demos-landings.png">
-                    <figcaption>
-                      <h2>Landings</h2>
-                    </figcaption>
-                  </figure>
-                </a>
-              </li>
-              <li>
-                <a href="demos/portfolios.html" title="Portfolios">
-                  <figure>
-                    <img alt="Thumbnail Portfolios" src="https://webslides.tv/static/images/demos-portfolios.png">
-                    <figcaption>
-                      <h2>Portfolios</h2>
-                    </figcaption>
-                  </figure>
-                </a>
-              </li>
-              <li>
-                <a href="demos/keynote.html" title="Apple Keynote">
-                  <figure>
-                    <img alt="Thumbnail Apple Keynote" src="https://webslides.tv/static/images/demos-apple.png">
-                    <figcaption>
-                      <h2>Apple Keynote</h2>
-                    </figcaption>
-                  </figure>
-                </a>
-              </li>
-            </ul>
+            <div class="card-60 bg-white">
+              <figure>
+                <iframe src="https://ink.yunyoujun.cn" style="background-color: #fff;"></iframe>
+              </figure>
+              <!-- end figure-->
+              <div class="flex-content">
+                <h2>
+                  Ink
+                </h2>
+                <p><i class="fas fa-tint"></i> 主题  Element Theme Ink</p>
+                <p>
+                  <a href="https://npmcharts.com/compare/element-theme-ink?minimal=true"><img src="https://img.shields.io/npm/dt/element-theme-ink.svg?style=for-the-badge" alt="Downloads"></a> <a href="https://www.npmjs.com/package/element-theme-ink"><img src="https://img.shields.io/npm/v/element-theme-ink.svg?style=for-the-badge" alt="Version"></a> <a href="https://www.npmjs.com/package/element-theme-ink"><img src="https://img.shields.io/npm/l/element-theme-ink.svg?style=for-the-badge" alt="License"></a> <a href="http://img.badgesize.io/https://unpkg.com/element-theme-ink/lib/index.css?compression=gzip&amp;label=gzip%20size:%20CSS"><img src="http://img.badgesize.io/https://unpkg.com/element-theme-ink/lib/index.css?compression=gzip&amp;label=gzip%20size:%20CSS&amp;style=for-the-badge"></a>
+                  <br>
+                  Base on: <a href="https://github.com/ElemeFE/element" target="_blank">Element</a><br>
+                  Preview: <a href="https://ink.yunyoujun.cn" target="_blank">https://ink.yunyoujun.cn</a><br>
+                  GitHub: <a href="https://github.com/YunYouJun/element-theme-ink" target="_blank">element-theme-ink</a>
+                </p>
+              </div>
+              <!-- end .flex-content-->
+            </div>
+            <!-- .end .card50 -->
           </div>
           <!-- .end .wrap -->
         </section>
         <section>
           <div class="wrap">
-            <div class="grid vertical-align">
-              <div class="column">
-                <h4>
-                  <svg class="fa-life-ring">
-                    <use xlink:href="#fa-life-ring"></use>
-                  </svg>
-                  <strong>Guides</strong>
-                </h4>
-                <p>If you need help, here's just three tutorials. Just a basic knowledge of HTML is required:</p>
-                <ul class="description">
-                  <li><a href="demos/components.html" title="WebSlides Components">WebSlides Components</a>.</li>
-                  <li><a href="demos/classes.html" title="WebSlides Classes">WebSlides Classes</a>.</li>
-                  <li><a href="demos/media.html" title="WebSlides Media">WebSlides Media: images, videos...</a></li>
-                </ul>
+            <div class="card-60 bg-white">
+              <!-- end figure-->
+              <div class="flex-content">
+                <h2>
+                  HomePage
+                </h2>
+                <p><i class="fab fa-chrome"></i> 主页</p>
+                <p>
+                  Base on: <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://pages.github.com" target="_blank">GitHub Pages</a><br>
+                  Preview: <a href="https://yunle.fun" target="_blank">https://yunle.fun</a><br>
+                  GitHub: <a href="https://github.com/PaperStar/paperstar.github.io" target="_blank">paperstar.github.io</a>
+                </p>
               </div>
-              <div class="column">
-                <figure><img class="aligncenter" src="static/images/setup.png" alt="WebSlides Files"></figure>
-              </div>
-              <div class="column">
-                <h4>
-                  <svg class="fa-cubes">
-                    <use xlink:href="#fa-cubes"></use>
-                  </svg>
-                  <strong>Built to expand</strong>
-                </h4>
-                <p>The best way to <strong>inspire with your content</strong> is to connect on a personal level:</p>
-                <ul class="description">
-                  <li>Background images: <a href="http://unsplash.com">Unsplash</a>.</li>
-                  <li>CSS animations: <a href="https://daneden.github.io/animate.css/">Animate.css</a>.</li>
-                  <li>Longforms: <a href="http://michalsnik.github.io/aos/"> Animate on scroll</a>.</li>
-                </ul>
-              </div>
+              <!-- end .flex-content-->
+              <figure>
+                <iframe src="https://yunle.fun" style="background-color: #fff;border: 1px solid #000;"></iframe>
+              </figure>
             </div>
-            <!--end .grid -->
+            <!-- .end .card50 -->
           </div>
+          <!-- .end .wrap -->
         </section>
         <section class="aligncenter">
-          <!-- .wrap = container (width: 90%) -->
           <div class="wrap">
-            <h2><strong>Ready to Start?</strong> </h2>
-            <p class="text-intro">Create your own presentation instantly. <br>120+ premium slides ready to use.</p>
+            <h2 class="text-landing">Admin</h2>
+            <p class="text-intro"><i class="far fa-user"></i> Deving ...</p>
             <p>
-              <a href="https://webslides.tv/webslides-latest.zip" class="button" title="Download WebSlides">
-                <svg class="fa-cloud-download">
-                  <use xlink:href="#fa-cloud-download"></use>
-                </svg>
-                Free Download
-              </a>
-              <span class="try">
-                <a href="https://www.paypal.me/jlantunez/8" title="Thanks :)">
-                  <svg class="fa-paypal">
-                    <use xlink:href="#fa-paypal"></use>
-                  </svg>
-                  Pay what you want.
-                </a>
-              </span>
+              Vue, Element, Ink, Koa ... <br>
+              <a href="https://yunle.fun/admin/">https://yunle.fun/admin/</a>
             </p>
           </div>
           <!-- .end .wrap -->
         </section>
-        <section class="slide-bottom">
+        <section class="aligncenter bg-light">
+          <!-- .wrap = container (width: 90%) -->
+          <span class="background dark" style="background-image:url('static/images/bg/ready.jpg')"></span>
           <div class="wrap">
-            <div class="content-right text-serif">
-              <h2>
-                <strong>Thanks.</strong>
-                <a target="_blank" title="Share on Twitter" href="https://twitter.com/intent/tweet?text=Finally,%20everything%20you%20need%20to%20make%20HTML%20presentations%20in%20a%20fast/beautiful%20way.%20@WebSlides%20=%20Good%20karma%20&mdash;%20https://webslides.tv">
-                  <svg class="fa-twitter">
-                    <use xlink:href="#fa-twitter"></use>
-                  </svg>
-                </a>
-              </h2>
-              <p>People share content that makes them feel inspired. WebSlides is a very effective way to engage young audiences, customers, and teams.</p> 
-              <p>Best,<br> <a href="https://twitter.com/jlantunez">@jlantunez</a>, <a href="https://twitter.com/belelros">@belelros</a>, and <a href="https://twitter.com/luissacristan">@luissacristan</a>.</p>
-            </div>
-            <!-- .end .content-right -->
+            <h2><strong>Ready to do</strong> </h2>
+            <p class="text-intro">游戏主程序开发 & 前后台网站搭建</p>
           </div>
           <!-- .end .wrap -->
+        </section>
+        <section class="aligncenter">
+          <h2 class="text-emoji zoomIn">😎</h2>
+          <h2>Thank you!</h2>
+          <p class="text-intro">敬请各位老师批评指正！</p>
+          <p><a href="https://github.com/YunYouJun" title="@YunYouJun" target="_blank">@YunYouJun</a></p>
         </section>
 
       </article>
@@ -372,6 +372,8 @@
 
     <!-- Required -->
     <script src="static/js/webslides.js"></script>
+    <script defer src="static/js/fontawesome-all.min.js"></script>
+    
     <script>
       window.ws = new WebSlides();
     </script>

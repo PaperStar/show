@@ -1799,9 +1799,9 @@ footer .column h3 {
           justify-content: inherit; }
 
 .clients li img,
-.clients li svg {
+/* .clients li svg {
   display: block;
-  padding: 2.4rem; }
+  padding: 2.4rem; } */
 
 .clients.border li img,
 .clients.border li svg {
