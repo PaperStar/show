@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "9415279a4ad294a59070a5f093e4dda6",
-    "url": "img/iphone.png"
+    "revision": "8376fd9c49d9381afbb7bf5463215f4e",
+    "url": "img/iphone-hand.png"
   },
   {
     "revision": "6ab8dc6d1416e7af675b0f66f9e82153",
     "url": "video/play.mp4"
   },
   {
-    "revision": "1ee53147b895a9313c1028b1780852cd",
-    "url": "img/logos/airbnb.svg"
+    "revision": "9415279a4ad294a59070a5f093e4dda6",
+    "url": "img/iphone.png"
   },
   {
     "revision": "d1a26434f77bdf8d7a70",
@@ -44,6 +44,10 @@ self.__precacheManifest = [
     "url": "img/character/Atwood.jfif"
   },
   {
+    "revision": "4b270df5a2b388ea506fe21fb4319e2d",
+    "url": "img/character/zhangxiaolong.jpg"
+  },
+  {
     "revision": "43c45f75584870ea4a1ecf06cae686ff",
     "url": "img/bg/ready.jpg"
   },
@@ -52,8 +56,8 @@ self.__precacheManifest = [
     "url": "img/bg/keyboard.jpg"
   },
   {
-    "revision": "4b270df5a2b388ea506fe21fb4319e2d",
-    "url": "img/character/zhangxiaolong.jpg"
+    "revision": "4f458fb6eef795c4ff405e8f412f0bd9",
+    "url": "img/davinci.png"
   },
   {
     "revision": "f57f097cfca0f31ee153c122ba9b8bd0",
@@ -66,10 +70,6 @@ self.__precacheManifest = [
   {
     "revision": "9af1b826da2e23b8f2e4e6e1e5ab7c3c",
     "url": "img/favicons/favicon-180.png"
-  },
-  {
-    "revision": "4f458fb6eef795c4ff405e8f412f0bd9",
-    "url": "img/davinci.png"
   },
   {
     "revision": "5db8ba4b3c0c382288f564125a96bb06",
@@ -92,12 +92,12 @@ self.__precacheManifest = [
     "url": "img/favicons/paper-plane-o.png"
   },
   {
-    "revision": "d38408b48b71e80d89827cd8b9a80e1f",
-    "url": "img/gif/born.gif"
-  },
-  {
     "revision": "bfa7911a28933ce70a8ffaba848699f8",
     "url": "img/frame/gameFrame.png"
+  },
+  {
+    "revision": "d38408b48b71e80d89827cd8b9a80e1f",
+    "url": "img/gif/born.gif"
   },
   {
     "revision": "df65d52cc6f164c8b27b8bd70f0bea88",
@@ -120,20 +120,24 @@ self.__precacheManifest = [
     "url": "img/gif/revive.gif"
   },
   {
-    "revision": "fd6b84e0b99b75c474a602e7b8a86ab0",
-    "url": "img/gif/share.gif"
+    "revision": "b027959e2a8f672d8bfdbbf2cdbf8a1b",
+    "url": "img/gif/gamegroup.gif"
   },
   {
-    "revision": "8376fd9c49d9381afbb7bf5463215f4e",
-    "url": "img/iphone-hand.png"
+    "revision": "fd6b84e0b99b75c474a602e7b8a86ab0",
+    "url": "img/gif/share.gif"
   },
   {
     "revision": "48fdb044c7c896d6ccfdcacfd1340090",
     "url": "other/main.pdf"
   },
   {
-    "revision": "005d54a881d689cb4b1466c3971024e0",
+    "revision": "90cf73d8fb75d91d75d083ed6ce7fd6c",
     "url": "index.html"
+  },
+  {
+    "revision": "1ee53147b895a9313c1028b1780852cd",
+    "url": "img/logos/airbnb.svg"
   },
   {
     "revision": "b62333ccf9c0cd765e150e40f402d232",
@@ -168,16 +172,8 @@ self.__precacheManifest = [
     "url": "img/logos/nyt.svg"
   },
   {
-    "revision": "46700a5e864e6e7cae462b6edddb41fe",
-    "url": "img/logos/PaperStar.png"
-  },
-  {
     "revision": "1ab168c7d1c9735cfbeea9175f121acf",
     "url": "img/logos/thetimes.svg"
-  },
-  {
-    "revision": "b027959e2a8f672d8bfdbbf2cdbf8a1b",
-    "url": "img/gif/gamegroup.gif"
   },
   {
     "revision": "57ce5a32b8f6813812923edc325c3f6c",
@@ -192,36 +188,40 @@ self.__precacheManifest = [
     "url": "img/setup.png"
   },
   {
+    "revision": "46700a5e864e6e7cae462b6edddb41fe",
+    "url": "img/logos/PaperStar.png"
+  },
+  {
     "revision": "94f2cecdba3491eac227ace9121fee1f",
     "url": "img/share-webslides.jpg"
-  },
-  {
-    "revision": "bb4e6eb192bfdb4021f7eac2809b8e7c",
-    "url": "img/show/adapt.png"
-  },
-  {
-    "revision": "7fdbe8e42e07ecc706aca638d217848a",
-    "url": "img/gif/launch.gif"
   },
   {
     "revision": "835eb24065425f6c0760794ea4e3ddbd",
     "url": "img/show/debug.png"
   },
   {
-    "revision": "a1fa945f8b915109a9887b99c20cb375",
-    "url": "img/show/grid.png"
+    "revision": "7fdbe8e42e07ecc706aca638d217848a",
+    "url": "img/gif/launch.gif"
+  },
+  {
+    "revision": "bb4e6eb192bfdb4021f7eac2809b8e7c",
+    "url": "img/show/adapt.png"
   },
   {
     "revision": "a8ac82bd0da647e9e6564b463d079bb4",
     "url": "img/show/gameWeb-gitalk.png"
   },
   {
-    "revision": "e3551ae17186ef44e4f46da6bffa1cd2",
-    "url": "img/show/group.png"
-  },
-  {
     "revision": "0c14f061420ec538ad1c0fd8f87f77ce",
     "url": "img/show/gameWeb-main.png"
+  },
+  {
+    "revision": "a1fa945f8b915109a9887b99c20cb375",
+    "url": "img/show/grid.png"
+  },
+  {
+    "revision": "e3551ae17186ef44e4f46da6bffa1cd2",
+    "url": "img/show/group.png"
   },
   {
     "revision": "cecb96a548455c92ab93993c7a9063e9",
@@ -232,12 +232,12 @@ self.__precacheManifest = [
     "url": "img/show/miniGame.png"
   },
   {
-    "revision": "f265eb93ec5ce886034e44044020d919",
-    "url": "img/show/startmenu.png"
-  },
-  {
     "revision": "73d718d41ffab71591bbdad852d02e46",
     "url": "img/show/transpond.png"
+  },
+  {
+    "revision": "f265eb93ec5ce886034e44044020d919",
+    "url": "img/show/startmenu.png"
   },
   {
     "revision": "6d3a3fda266a7685319ff5a0c4ccb467",
@@ -248,11 +248,11 @@ self.__precacheManifest = [
     "url": "js/fontawesome-all.min.js"
   },
   {
-    "revision": "2431e10431097ba257d6",
-    "url": "app.b6aec5db.css"
+    "revision": "ffa31f5bdb247ab64209",
+    "url": "app.ffa31f5b.js"
   },
   {
-    "revision": "2431e10431097ba257d6",
-    "url": "app.2431e104.js"
+    "revision": "ffa31f5bdb247ab64209",
+    "url": "app.0139f640.css"
   }
 ];
