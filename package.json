@@ -1,25 +1,48 @@
 {
   "name": "show",
-  "version": "1.0.0",
-  "description": "A show about paper-star.",
+  "version": "2.0.0",
+  "private": true,
   "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PaperStar/show.git"
-  },
+  "author": "YunYouJun <me@yunyoujun.cn>",
+  "description": "A show about paper-star.",
   "keywords": [
     "show",
     "paper",
     "star"
   ],
-  "author": "YunYouJun <me@yunyoujun.cn>",
   "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "register-service-worker": "^1.0.0",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.16",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.16",
+    "@vue/cli-plugin-pwa": "^3.0.0-beta.16",
+    "@vue/cli-service": "^3.0.0-beta.16",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperStar/show.git"
+  },
   "bugs": {
     "url": "https://github.com/PaperStar/show/issues"
   },
-  "homepage": "https://github.com/PaperStar/show#readme",
-  "scripts": {
-    "start": "npm run dev",
-    "dev": "parcel index.html"
-  }
+  "homepage": "https://github.com/PaperStar/show#readme"
 }
