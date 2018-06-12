@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "1ee53147b895a9313c1028b1780852cd",
-    "url": "img/logos/airbnb.svg"
+    "revision": "b62333ccf9c0cd765e150e40f402d232",
+    "url": "img/logos/apple.svg"
   },
   {
     "revision": "6ab8dc6d1416e7af675b0f66f9e82153",
     "url": "video/play.mp4"
   },
   {
-    "revision": "b62333ccf9c0cd765e150e40f402d232",
-    "url": "img/logos/apple.svg"
+    "revision": "d309e720e0efb7c6c6be5a1f74e0c5f9",
+    "url": "img/logos/facebook.svg"
   },
   {
     "revision": "d1a26434f77bdf8d7a70",
@@ -20,48 +20,40 @@ self.__precacheManifest = [
     "url": "css/fa-svg-with-js.css"
   },
   {
-    "revision": "872b6d26fa2c0efdc8e9853a7bfbeda0",
-    "url": "css/webslides.css"
-  },
-  {
     "revision": "6bcd473e70297a53c794019a840d7b63",
     "url": "img/android.png"
   },
   {
-    "revision": "93a18ecb0be09275281a59aaef8fbc5e",
-    "url": "img/bg/sky-cloud.jpg"
+    "revision": "872b6d26fa2c0efdc8e9853a7bfbeda0",
+    "url": "css/webslides.css"
   },
   {
     "revision": "50d576306e2485ebb26e14276c614c51",
     "url": "img/bt-appstore.png"
   },
   {
-    "revision": "3318afdaf2b636901305bd393f414ab9",
-    "url": "img/bg/keyboard.jpg"
+    "revision": "6edb3470af79848b72f6ad8ca46cc957",
+    "url": "img/bt-playstore.png"
   },
   {
-    "revision": "4b270df5a2b388ea506fe21fb4319e2d",
-    "url": "img/character/zhangxiaolong.jpg"
+    "revision": "93a18ecb0be09275281a59aaef8fbc5e",
+    "url": "img/bg/sky-cloud.jpg"
   },
   {
     "revision": "f7082488a85b4ceb5e3417990314fd2b",
     "url": "img/character/Atwood.jfif"
   },
   {
-    "revision": "6edb3470af79848b72f6ad8ca46cc957",
-    "url": "img/bt-playstore.png"
-  },
-  {
-    "revision": "43c45f75584870ea4a1ecf06cae686ff",
-    "url": "img/bg/ready.jpg"
-  },
-  {
-    "revision": "4f458fb6eef795c4ff405e8f412f0bd9",
-    "url": "img/davinci.png"
+    "revision": "4b270df5a2b388ea506fe21fb4319e2d",
+    "url": "img/character/zhangxiaolong.jpg"
   },
   {
     "revision": "f57f097cfca0f31ee153c122ba9b8bd0",
     "url": "img/favicons/favicon-120.png"
+  },
+  {
+    "revision": "4f458fb6eef795c4ff405e8f412f0bd9",
+    "url": "img/davinci.png"
   },
   {
     "revision": "03aab5e1b4e54106270e865319a08ee1",
@@ -88,8 +80,8 @@ self.__precacheManifest = [
     "url": "img/favicons/favicon.png"
   },
   {
-    "revision": "b9ef8c33d29e7d4add1fcbc7d7ec9547",
-    "url": "img/favicons/paper-plane-o.png"
+    "revision": "43c45f75584870ea4a1ecf06cae686ff",
+    "url": "img/bg/ready.jpg"
   },
   {
     "revision": "bfa7911a28933ce70a8ffaba848699f8",
@@ -98,6 +90,10 @@ self.__precacheManifest = [
   {
     "revision": "d38408b48b71e80d89827cd8b9a80e1f",
     "url": "img/gif/born.gif"
+  },
+  {
+    "revision": "3318afdaf2b636901305bd393f414ab9",
+    "url": "img/bg/keyboard.jpg"
   },
   {
     "revision": "df65d52cc6f164c8b27b8bd70f0bea88",
@@ -120,24 +116,24 @@ self.__precacheManifest = [
     "url": "img/gif/revive.gif"
   },
   {
-    "revision": "9415279a4ad294a59070a5f093e4dda6",
-    "url": "img/iphone.png"
-  },
-  {
     "revision": "8376fd9c49d9381afbb7bf5463215f4e",
     "url": "img/iphone-hand.png"
   },
   {
-    "revision": "48fdb044c7c896d6ccfdcacfd1340090",
-    "url": "other/main.pdf"
+    "revision": "9415279a4ad294a59070a5f093e4dda6",
+    "url": "img/iphone.png"
   },
   {
-    "revision": "74e14c9f4a9381f5fce7b4c8d8dce096",
+    "revision": "1ee53147b895a9313c1028b1780852cd",
+    "url": "img/logos/airbnb.svg"
+  },
+  {
+    "revision": "7fdbe8e42e07ecc706aca638d217848a",
+    "url": "img/gif/launch.gif"
+  },
+  {
+    "revision": "7fd100686a2bebbe4e8966627d667a63",
     "url": "index.html"
-  },
-  {
-    "revision": "d309e720e0efb7c6c6be5a1f74e0c5f9",
-    "url": "img/logos/facebook.svg"
   },
   {
     "revision": "68d871416089e99a57f983f47a800884",
@@ -152,20 +148,8 @@ self.__precacheManifest = [
     "url": "img/gif/share.gif"
   },
   {
-    "revision": "7fdbe8e42e07ecc706aca638d217848a",
-    "url": "img/gif/launch.gif"
-  },
-  {
-    "revision": "b027959e2a8f672d8bfdbbf2cdbf8a1b",
-    "url": "img/gif/gamegroup.gif"
-  },
-  {
     "revision": "b9ef8c33d29e7d4add1fcbc7d7ec9547",
     "url": "img/logos/logo.png"
-  },
-  {
-    "revision": "7d5e09f1c6a10408779c63286d8dc9a5",
-    "url": "img/logos/nyt.svg"
   },
   {
     "revision": "5ed13db6c6a4e05f93e012ee095cc64c",
@@ -174,6 +158,14 @@ self.__precacheManifest = [
   {
     "revision": "ab19c7e070761107860dfe0c73bcdd17",
     "url": "img/logos/netflix.svg"
+  },
+  {
+    "revision": "7d5e09f1c6a10408779c63286d8dc9a5",
+    "url": "img/logos/nyt.svg"
+  },
+  {
+    "revision": "46700a5e864e6e7cae462b6edddb41fe",
+    "url": "img/logos/PaperStar.png"
   },
   {
     "revision": "1ab168c7d1c9735cfbeea9175f121acf",
@@ -186,10 +178,6 @@ self.__precacheManifest = [
   {
     "revision": "3c07a4e84fd31439f56e54866f9928a6",
     "url": "img/qrcode/show.png"
-  },
-  {
-    "revision": "46700a5e864e6e7cae462b6edddb41fe",
-    "url": "img/logos/PaperStar.png"
   },
   {
     "revision": "c517dc2940504b7018b37856c1f279a7",
@@ -208,32 +196,36 @@ self.__precacheManifest = [
     "url": "img/show/adapt.png"
   },
   {
-    "revision": "a1fa945f8b915109a9887b99c20cb375",
-    "url": "img/show/grid.png"
+    "revision": "a8ac82bd0da647e9e6564b463d079bb4",
+    "url": "img/show/gameWeb-gitalk.png"
   },
   {
-    "revision": "e3551ae17186ef44e4f46da6bffa1cd2",
-    "url": "img/show/group.png"
+    "revision": "0c14f061420ec538ad1c0fd8f87f77ce",
+    "url": "img/show/gameWeb-main.png"
+  },
+  {
+    "revision": "a1fa945f8b915109a9887b99c20cb375",
+    "url": "img/show/grid.png"
   },
   {
     "revision": "cecb96a548455c92ab93993c7a9063e9",
     "url": "img/show/map.png"
   },
   {
-    "revision": "f265eb93ec5ce886034e44044020d919",
-    "url": "img/show/startmenu.png"
+    "revision": "e3551ae17186ef44e4f46da6bffa1cd2",
+    "url": "img/show/group.png"
   },
   {
     "revision": "4cbd7c8d2b4bb4bb6172cc2eaf81182c",
     "url": "img/show/miniGame.png"
   },
   {
-    "revision": "73d718d41ffab71591bbdad852d02e46",
-    "url": "img/show/transpond.png"
+    "revision": "f265eb93ec5ce886034e44044020d919",
+    "url": "img/show/startmenu.png"
   },
   {
-    "revision": "0c14f061420ec538ad1c0fd8f87f77ce",
-    "url": "img/show/gameWeb-main.png"
+    "revision": "73d718d41ffab71591bbdad852d02e46",
+    "url": "img/show/transpond.png"
   },
   {
     "revision": "6d3a3fda266a7685319ff5a0c4ccb467",
@@ -244,15 +236,23 @@ self.__precacheManifest = [
     "url": "js/fontawesome-all.min.js"
   },
   {
-    "revision": "a8ac82bd0da647e9e6564b463d079bb4",
-    "url": "img/show/gameWeb-gitalk.png"
+    "revision": "48fdb044c7c896d6ccfdcacfd1340090",
+    "url": "other/main.pdf"
   },
   {
-    "revision": "e8941b9c776d07832a3d",
-    "url": "app.e8941b9c.js"
+    "revision": "b9ef8c33d29e7d4add1fcbc7d7ec9547",
+    "url": "img/favicons/paper-plane-o.png"
   },
   {
-    "revision": "e8941b9c776d07832a3d",
+    "revision": "b027959e2a8f672d8bfdbbf2cdbf8a1b",
+    "url": "img/gif/gamegroup.gif"
+  },
+  {
+    "revision": "66978372a29b6fac115e",
     "url": "app.b6aec5db.css"
+  },
+  {
+    "revision": "66978372a29b6fac115e",
+    "url": "app.66978372.js"
   }
 ];
