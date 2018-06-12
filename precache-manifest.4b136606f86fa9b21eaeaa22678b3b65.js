@@ -24,12 +24,16 @@ self.__precacheManifest = [
     "url": "css/webslides.css"
   },
   {
+    "revision": "3318afdaf2b636901305bd393f414ab9",
+    "url": "img/bg/keyboard.jpg"
+  },
+  {
     "revision": "6bcd473e70297a53c794019a840d7b63",
     "url": "img/android.png"
   },
   {
-    "revision": "93a18ecb0be09275281a59aaef8fbc5e",
-    "url": "img/bg/sky-cloud.jpg"
+    "revision": "43c45f75584870ea4a1ecf06cae686ff",
+    "url": "img/bg/ready.jpg"
   },
   {
     "revision": "50d576306e2485ebb26e14276c614c51",
@@ -40,20 +44,16 @@ self.__precacheManifest = [
     "url": "img/bt-playstore.png"
   },
   {
-    "revision": "f7082488a85b4ceb5e3417990314fd2b",
-    "url": "img/character/Atwood.jfif"
+    "revision": "93a18ecb0be09275281a59aaef8fbc5e",
+    "url": "img/bg/sky-cloud.jpg"
   },
   {
     "revision": "4b270df5a2b388ea506fe21fb4319e2d",
     "url": "img/character/zhangxiaolong.jpg"
   },
   {
-    "revision": "43c45f75584870ea4a1ecf06cae686ff",
-    "url": "img/bg/ready.jpg"
-  },
-  {
-    "revision": "3318afdaf2b636901305bd393f414ab9",
-    "url": "img/bg/keyboard.jpg"
+    "revision": "f7082488a85b4ceb5e3417990314fd2b",
+    "url": "img/character/Atwood.jfif"
   },
   {
     "revision": "4f458fb6eef795c4ff405e8f412f0bd9",
@@ -100,6 +100,10 @@ self.__precacheManifest = [
     "url": "img/gif/born.gif"
   },
   {
+    "revision": "25eca081b19d795faf5c7a0e49979e08",
+    "url": "img/gif/bullet.gif"
+  },
+  {
     "revision": "df65d52cc6f164c8b27b8bd70f0bea88",
     "url": "img/gif/dead.gif"
   },
@@ -108,8 +112,16 @@ self.__precacheManifest = [
     "url": "img/gif/joystick.gif"
   },
   {
+    "revision": "4d0bb244910ff7209d3925ff63cdc703",
+    "url": "img/gif/gravity.gif"
+  },
+  {
     "revision": "9e3af21f5d746a1b62e4c0610dec5d2e",
     "url": "img/gif/planet.gif"
+  },
+  {
+    "revision": "5ab6430276e0bad787560307dd293de6",
+    "url": "img/gif/move.gif"
   },
   {
     "revision": "15371344e97eb7fc875fc1fc335c9802",
@@ -120,32 +132,16 @@ self.__precacheManifest = [
     "url": "img/gif/revive.gif"
   },
   {
-    "revision": "b027959e2a8f672d8bfdbbf2cdbf8a1b",
-    "url": "img/gif/gamegroup.gif"
+    "revision": "7fdbe8e42e07ecc706aca638d217848a",
+    "url": "img/gif/launch.gif"
   },
   {
-    "revision": "fd6b84e0b99b75c474a602e7b8a86ab0",
-    "url": "img/gif/share.gif"
-  },
-  {
-    "revision": "48fdb044c7c896d6ccfdcacfd1340090",
-    "url": "other/main.pdf"
-  },
-  {
-    "revision": "90cf73d8fb75d91d75d083ed6ce7fd6c",
+    "revision": "a8703e78b60ba83550ab96db6716a4c1",
     "url": "index.html"
   },
   {
     "revision": "1ee53147b895a9313c1028b1780852cd",
     "url": "img/logos/airbnb.svg"
-  },
-  {
-    "revision": "b62333ccf9c0cd765e150e40f402d232",
-    "url": "img/logos/apple.svg"
-  },
-  {
-    "revision": "d309e720e0efb7c6c6be5a1f74e0c5f9",
-    "url": "img/logos/facebook.svg"
   },
   {
     "revision": "68d871416089e99a57f983f47a800884",
@@ -156,8 +152,8 @@ self.__precacheManifest = [
     "url": "img/logos/instagram.svg"
   },
   {
-    "revision": "b9ef8c33d29e7d4add1fcbc7d7ec9547",
-    "url": "img/logos/logo.png"
+    "revision": "d309e720e0efb7c6c6be5a1f74e0c5f9",
+    "url": "img/logos/facebook.svg"
   },
   {
     "revision": "5ed13db6c6a4e05f93e012ee095cc64c",
@@ -166,6 +162,14 @@ self.__precacheManifest = [
   {
     "revision": "ab19c7e070761107860dfe0c73bcdd17",
     "url": "img/logos/netflix.svg"
+  },
+  {
+    "revision": "b027959e2a8f672d8bfdbbf2cdbf8a1b",
+    "url": "img/gif/gamegroup.gif"
+  },
+  {
+    "revision": "b9ef8c33d29e7d4add1fcbc7d7ec9547",
+    "url": "img/logos/logo.png"
   },
   {
     "revision": "7d5e09f1c6a10408779c63286d8dc9a5",
@@ -180,12 +184,12 @@ self.__precacheManifest = [
     "url": "img/qrcode/game.png"
   },
   {
-    "revision": "3c07a4e84fd31439f56e54866f9928a6",
-    "url": "img/qrcode/show.png"
-  },
-  {
     "revision": "c517dc2940504b7018b37856c1f279a7",
     "url": "img/setup.png"
+  },
+  {
+    "revision": "3c07a4e84fd31439f56e54866f9928a6",
+    "url": "img/qrcode/show.png"
   },
   {
     "revision": "46700a5e864e6e7cae462b6edddb41fe",
@@ -196,32 +200,28 @@ self.__precacheManifest = [
     "url": "img/share-webslides.jpg"
   },
   {
-    "revision": "835eb24065425f6c0760794ea4e3ddbd",
-    "url": "img/show/debug.png"
-  },
-  {
-    "revision": "7fdbe8e42e07ecc706aca638d217848a",
-    "url": "img/gif/launch.gif"
-  },
-  {
     "revision": "bb4e6eb192bfdb4021f7eac2809b8e7c",
     "url": "img/show/adapt.png"
   },
   {
-    "revision": "a8ac82bd0da647e9e6564b463d079bb4",
-    "url": "img/show/gameWeb-gitalk.png"
-  },
-  {
-    "revision": "0c14f061420ec538ad1c0fd8f87f77ce",
-    "url": "img/show/gameWeb-main.png"
+    "revision": "835eb24065425f6c0760794ea4e3ddbd",
+    "url": "img/show/debug.png"
   },
   {
     "revision": "a1fa945f8b915109a9887b99c20cb375",
     "url": "img/show/grid.png"
   },
   {
+    "revision": "0c14f061420ec538ad1c0fd8f87f77ce",
+    "url": "img/show/gameWeb-main.png"
+  },
+  {
     "revision": "e3551ae17186ef44e4f46da6bffa1cd2",
     "url": "img/show/group.png"
+  },
+  {
+    "revision": "a8ac82bd0da647e9e6564b463d079bb4",
+    "url": "img/show/gameWeb-gitalk.png"
   },
   {
     "revision": "cecb96a548455c92ab93993c7a9063e9",
@@ -232,27 +232,39 @@ self.__precacheManifest = [
     "url": "img/show/miniGame.png"
   },
   {
-    "revision": "73d718d41ffab71591bbdad852d02e46",
-    "url": "img/show/transpond.png"
-  },
-  {
     "revision": "f265eb93ec5ce886034e44044020d919",
     "url": "img/show/startmenu.png"
+  },
+  {
+    "revision": "73d718d41ffab71591bbdad852d02e46",
+    "url": "img/show/transpond.png"
   },
   {
     "revision": "6d3a3fda266a7685319ff5a0c4ccb467",
     "url": "js/webslides.min.js"
   },
   {
+    "revision": "fd6b84e0b99b75c474a602e7b8a86ab0",
+    "url": "img/gif/share.gif"
+  },
+  {
+    "revision": "48fdb044c7c896d6ccfdcacfd1340090",
+    "url": "other/main.pdf"
+  },
+  {
+    "revision": "b62333ccf9c0cd765e150e40f402d232",
+    "url": "img/logos/apple.svg"
+  },
+  {
     "revision": "bffc6023835e717c0348c41583e56eba",
     "url": "js/fontawesome-all.min.js"
   },
   {
-    "revision": "ffa31f5bdb247ab64209",
-    "url": "app.ffa31f5b.js"
+    "revision": "b5551fd3c0aab2f236c2",
+    "url": "app.de0173b4.css"
   },
   {
-    "revision": "ffa31f5bdb247ab64209",
-    "url": "app.0139f640.css"
+    "revision": "b5551fd3c0aab2f236c2",
+    "url": "app.b5551fd3.js"
   }
 ];
